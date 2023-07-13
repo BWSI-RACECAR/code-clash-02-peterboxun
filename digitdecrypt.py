@@ -37,7 +37,7 @@ class Solution:
             while len(a) > 1:
                 count = 0
                 for b in a:
-                    count += b
+                    count += int(b)
                     a = str(count)
             r = int(a)
             return r
